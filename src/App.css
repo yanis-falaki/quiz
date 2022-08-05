@@ -7,7 +7,7 @@
   background-color: lightskyblue;
 }
 
-#question {
+#box {
   height: 500px;
   width: 800px;
   background-color:midnightblue;
@@ -98,4 +98,13 @@
 
 .answer:active {
   background-color: darkblue;
+}
+
+
+.correct {
+  background-color: green!important;
+}
+
+.incorrect {
+  background-color: red!important;
 }
