@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   background-color: lightskyblue;
+  color: white;
 }
 
 #box {
@@ -18,6 +19,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+button {
+  height: 55px;
+  width: 250px;
+  color: white;
+  background-color:royalblue;
+  border: antiquewhite solid 4px;
+  border-radius: 75px;
+  font-size: 22px;
+  font-weight: 700;
+  transition: 0.3s;
+  box-shadow: 3px 7px 10px gray;
+}
+
+button:hover {
+  background-color: skyblue;
+}
+
+button:active {
+  background-color: darkblue;
 }
 
 #questions {
@@ -43,27 +65,9 @@
 }
 
 #next {
-  height: 55px;
-  width: 250px;
-  color: white;
-  background-color:royalblue;
-  border: antiquewhite solid 4px;
-  border-radius: 75px;
-  font-size: 22px;
-  font-weight: 700;
-  transition: 0.3s;
-  box-shadow: 3px 7px 10px gray;
   margin-top: auto;
   margin-bottom: 50px;
   margin-left: 40px;
-}
-
-#next:hover {
-  background-color: skyblue;
-}
-
-#next:active {
-  background-color: darkblue;
 }
 
 #answers {
